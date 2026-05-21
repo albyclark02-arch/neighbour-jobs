@@ -217,7 +217,7 @@ export default function Home() {
           </button>
         ))}
       </div>
-      <button onClick={() => setPage('feed')} disabled={!region} className={`py-3 rounded-xl font-medium ${region ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-300'}`}>Let&apos;s go</button>
+      <button onClick={() => setPage('feed')} disabled={!region} className={`py-3 rounded-xl font-medium ${region ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-300'}`}>Let's go</button>
     </main>
   )
 
